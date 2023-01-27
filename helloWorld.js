@@ -1,7 +1,10 @@
-// function to print "Hello World!"
+// input from user
+let userInput = prompt("What's your name?:")
+
+// function to print input from user
 
 function helloWorld() {
-    console.log("Git is Awesome!");
+    console.log(`Hello ${userInput}`);
 }
 
 helloWorld();
